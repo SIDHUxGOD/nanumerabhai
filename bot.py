@@ -17,7 +17,7 @@ import shorturl
 load_dotenv()
 
 # Get the bot token from environment variable
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TOKEN = "8066799078:AAF2ZhmGorhGjy6N1icyzCcfwvMI3LMPGkU"
 ADMIN_USER_IDS = [int(id.strip()) for id in os.getenv("ADMIN_USER_IDS", "").split(",") if id.strip()]
 
 # Define constants
